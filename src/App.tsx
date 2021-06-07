@@ -6,7 +6,7 @@ import { Colors } from "./utility/color-generator";
 import "./styles.css";
 
 function App() {
-  console.log("Entry Point", <App />);
+  // console.log("Entry Point", <App />);
 
   const [color, setColor] = React.useState<string>();
 

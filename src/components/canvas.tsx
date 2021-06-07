@@ -1,7 +1,7 @@
 type Props = { color: string | undefined };
 
 function Canvas({ color }: Props) {
-  console.log("Color", <Canvas color={color} />);
+  // console.log("Color", <Canvas color={color} />);
 
   return (
     <div

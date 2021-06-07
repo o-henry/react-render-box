@@ -4,7 +4,7 @@ import { Colors } from "../utility/color-generator";
 type Props = Pick<React.ReactPortal, "children">;
 
 function Title({ children }: Props) {
-  console.log("title", <Title>{children}</Title>);
+  // console.log("title", <Title>{children}</Title>);
 
   return (
     <div

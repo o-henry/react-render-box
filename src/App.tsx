@@ -1,6 +1,8 @@
 import * as React from "react";
+
 import { Page } from "./features/page";
-import { Colors } from "./utility/color-generate";
+import { Colors } from "./utility/color-generator";
+
 import "./styles.css";
 
 export default function App() {

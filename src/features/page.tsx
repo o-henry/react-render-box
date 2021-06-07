@@ -1,6 +1,5 @@
 import * as React from "react";
-import { Canvas } from "../components/canvas";
-import { Title } from "../components/title";
+import { Canvas, Title } from "../components";
 
 type Props = { color: string };
 

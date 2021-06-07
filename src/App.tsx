@@ -5,7 +5,9 @@ import { Colors } from "./utility/color-generator";
 
 import "./styles.css";
 
-export default function App() {
+function App() {
+  console.log("Entry Point", <App />);
+
   const [color, setColor] = React.useState<string>();
 
   const changeColor = () => {
@@ -22,3 +24,5 @@ export default function App() {
     </div>
   );
 }
+
+export default App;

@@ -1,14 +1,13 @@
-# how to prevent re-rendering ?
+# How to prevent re-rendering ?
 
-  1. co-location
-  2. composition
-  3. React.memo
+1. co-location
+2. composition
+3. React.memo
 
-  ---
+---
 
 ```ts
   const Title = React.memo(function Title({ children }: Props) {
-    console.log("call test");
     return <h1>{children}</h1>;
   })
 ```

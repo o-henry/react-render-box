@@ -2,6 +2,7 @@ import * as React from "react";
 
 import { Page } from "./features/page";
 import { Colors } from "./utility/color-generator";
+import Button from "./components/button";
 
 import "./styles.css";
 
@@ -19,7 +20,7 @@ function App() {
       <Page color={color as string} />
 
       <div>
-        <button onClick={changeColor}>CHANGE</button>
+        <Button onClick={changeColor}>CHANGE</Button>
       </div>
     </div>
   );

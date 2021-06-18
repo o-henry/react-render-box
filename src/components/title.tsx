@@ -1,23 +1,16 @@
 import * as React from "react";
+import Box from "../Box";
 import { Colors } from "../utility/color-generator";
 
 type Props = Pick<React.ReactPortal, "children">;
 
-function Title({ children }: Props) {
-  // console.log("title", <Title>{children}</Title>);
-
+const Title = ({ children }: Props) => {
   return (
-    <div
-      style={{
-        border: "1px solid",
-        borderColor: Colors(),
-        width: "96px",
-        margin: "5px auto"
-      }}
-    >
+    // <div style={{ border: `1px solid ${Colors()}` }}>
+    <div>
       <h1>{children}</h1>
     </div>
   );
-}
+};
 
-export { Title };
+export default React.memo(Box(Title));

@@ -1,3 +1,4 @@
+import Box from "../Box";
 type Props = { color: string | undefined };
 
 function Canvas({ color }: Props) {
@@ -15,4 +16,4 @@ function Canvas({ color }: Props) {
   );
 }
 
-export { Canvas };
+export default Box(Canvas);

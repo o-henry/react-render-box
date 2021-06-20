@@ -1,5 +1,4 @@
-# react-performance
+# visual-box example
 
 Created with CodeSandbox
 
-Visual-Box Example

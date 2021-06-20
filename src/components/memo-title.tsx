@@ -3,7 +3,7 @@ import Box from "visual-box";
 
 type Props = Pick<React.ReactPortal, "children">;
 
-const Title = ({ children }: Props) => {
+const MemoTitle = ({ children }: Props) => {
   return (
     <div>
       <h1>{children}</h1>
@@ -11,4 +11,4 @@ const Title = ({ children }: Props) => {
   );
 };
 
-export default Box(Title);
+export default React.memo(Box(MemoTitle));
